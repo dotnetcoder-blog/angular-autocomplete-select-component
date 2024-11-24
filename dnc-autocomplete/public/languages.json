@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "English",
+    "code": "en"
+  },
+  {
+    "id": 2,
+    "name": "Spanish",
+    "code": "es"
+  },
+  {
+    "id": 3,
+    "name": "French",
+    "code": "fr"
+  },
+  {
+    "id": 4,
+    "name": "German",
+    "code": "de"
+  },
+  {
+    "id": 5,
+    "name": "Chinese",
+    "code": "zh"
+  },
+  {
+    "id": 6,
+    "name": "Japanese",
+    "code": "ja"
+  },
+  {
+    "id": 7,
+    "name": "Russian",
+    "code": "ru"
+  },
+  {
+    "id": 8,
+    "name": "Arabic",
+    "code": "ar"
+  },
+  {
+    "id": 9,
+    "name": "Hindi",
+    "code": "hi"
+  },
+  {
+    "id": 10,
+    "name": "Portuguese",
+    "code": "pt"
+  },
+  {
+    "id": 11,
+    "name": "Bengali",
+    "code": "bn"
+  },
+  {
+    "id": 12,
+    "name": "Korean",
+    "code": "ko"
+  },
+  {
+    "id": 13,
+    "name": "Italian",
+    "code": "it"
+  },
+  {
+    "id": 14,
+    "name": "Turkish",
+    "code": "tr"
+  },
+  {
+    "id": 15,
+    "name": "Vietnamese",
+    "code": "vi"
+  },
+  {
+    "id": 16,
+    "name": "Persian",
+    "code": "fa"
+  },
+  {
+    "id": 17,
+    "name": "Dutch",
+    "code": "nl"
+  },
+  {
+    "id": 18,
+    "name": "Swedish",
+    "code": "sv"
+  },
+  {
+    "id": 19,
+    "name": "Thai",
+    "code": "th"
+  },
+  {
+    "id": 20,
+    "name": "Polish",
+    "code": "pl"
+  }
+]

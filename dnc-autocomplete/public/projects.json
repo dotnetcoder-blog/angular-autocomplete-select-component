@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Website Redesign",
+    "status": "In Progress"
+  },
+  {
+    "id": 2,
+    "name": "Mobile App Development",
+    "status": "Completed"
+  },
+  {
+    "id": 3,
+    "name": "Cloud Migration",
+    "status": "In Progress"
+  },
+  {
+    "id": 4,
+    "name": "AI Chatbot Integration",
+    "status": "Pending"
+  },
+  {
+    "id": 5,
+    "name": "Data Analytics Platform",
+    "status": "Completed"
+  }
+]

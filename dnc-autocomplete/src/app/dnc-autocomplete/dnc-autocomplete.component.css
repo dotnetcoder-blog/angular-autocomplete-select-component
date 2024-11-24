@@ -1,0 +1,30 @@
+.dnc-list-container {
+  position: relative;
+}
+
+ul {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: white;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1000;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+  li:hover {
+    background-color: #eee;
+  }
+
+  li.active {
+    background-color: #eee;
+  }

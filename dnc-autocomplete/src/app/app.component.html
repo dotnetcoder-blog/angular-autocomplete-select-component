@@ -1,0 +1,134 @@
+<div class="container my-5">
+  <!-- Form Section -->
+  <div class="form-section">
+    <h3 class="text-center mb-4 text-primary">Create Employee</h3>
+    <form [formGroup]="employeeForm" (ngSubmit)="createEmployee()">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label for="name" class="form-label">Name</label>
+          <input class="form-control"
+                 id="name"
+                 formControlName="name"
+                 placeholder="Enter name"
+                 required />
+        </div>
+        <div class="col-md-6">
+          <label for="department" class="form-label">Department</label>
+          <dnc-autocomplete [items]="departments"
+                            formControlName="departmentId"
+                            displayProperty="name"
+                            bindingProperty="id" />
+        </div>
+        <div class="col-md-6">
+          <label for="country" class="form-label">Country</label>
+          <dnc-autocomplete [items]="countries"
+                            formControlName="country"
+                            [displayProperty]="'name'" />
+        </div>
+        <div class="col-md-6">
+          <label for="language" class="form-label">Language</label>
+          <dnc-autocomplete [items]="languages"
+                            formControlName="language"
+                            displayProperty="name"
+                            bindingProperty="code"
+                            initialValue="en"/>
+        </div>
+        <div class="col-md-6">
+          <label for="role" class="form-label">Role</label>
+          <dnc-autocomplete [items]="roles"
+                            formControlName="role" />
+        </div>
+        <div class="col-md-6">
+          <label for="project" class="form-label">Project</label>
+          <dnc-autocomplete [items]="projects"
+                            formControlName="project"
+                            [displayProperty]="'name'"
+                            [emitProperty]="false" />
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <button class="btn btn-success btn-lg px-4"
+                type="submit"
+                [disabled]="!employeeForm.valid">
+          Create
+        </button>
+        <button class="btn btn-danger btn-lg px-4 ms-3"
+                type="button"
+                (click)="reset()">
+          Reset
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Table -->
+  <div class="table-section">
+    <h4 class="text-center text-secondary">Employee Details</h4>
+    <div class="table-responsive mt-3">
+      <table class="table table-striped table-bordered">
+        <thead class="table-light">
+          <tr>
+            <th>#</th>
+            <th>Full Name</th>
+            <th>Department ID</th>
+            <th>Country</th>
+            <th>Language</th>
+            <th>Role</th>
+            <th>Project</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let employee of employees; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ employee.name }}</td>
+            <td>{{ employee.departmentId }}</td>
+            <td>{{ employee.country }}</td>
+            <td>{{ employee.language }}</td>
+            <td>{{ employee.role }}</td>
+            <td>{{ employee.project | json }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<!--Bind the Component to a Template-Driven Model-->
+
+
+<div class="container my-5">
+  <h5 class="my-3">Bind the Component to a Template-Driven Model</h5>
+
+  <form #courseForm="ngForm">
+    <div class="row g-3">
+      <div class="col-md-4 mb-4">
+        <dnc-autocomplete name="course"
+                          [(ngModel)]="selectedCourse"
+                          [items]="courses"
+                          displayProperty="name"
+                          bindingProperty="code"
+                          placeholderText="Select a course"></dnc-autocomplete>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-success btn-sm px-4">Submit</button>
+  </form>
+
+  <p class="lead mt-3" style="color:#000000">Selected course : {{selectedCourse || 'None' }}</p>
+</div>
+
+<div class="container my-5">
+  <h5 class="my-3">Standalone Usage</h5>
+
+    <div class="row g-3">
+      <div class="col-md-4 mb-4">
+        <dnc-autocomplete [items]="programs"
+                          displayProperty="name"
+                          (itemSelected)="onProgramSelected($event)"
+                          placeholderText="Select a program"></dnc-autocomplete>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-success btn-sm px-4">Submit</button>
+
+  <p class="lead mt-3" style="color:#000000">Selected Program : {{selectedProgram || 'None'}}</p>
+</div>

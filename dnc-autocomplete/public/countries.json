@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "United States",
+    "code": "US"
+  },
+  {
+    "id": 2,
+    "name": "Canada",
+    "code": "CA"
+  },
+  {
+    "id": 3,
+    "name": "United Kingdom",
+    "code": "GB"
+  },
+  {
+    "id": 4,
+    "name": "Australia",
+    "code": "AU"
+  },
+  {
+    "id": 5,
+    "name": "Germany",
+    "code": "DE"
+  },
+  {
+    "id": 6,
+    "name": "France",
+    "code": "FR"
+  },
+  {
+    "id": 7,
+    "name": "Japan",
+    "code": "JP"
+  },
+  {
+    "id": 8,
+    "name": "India",
+    "code": "IN"
+  },
+  {
+    "id": 9,
+    "name": "China",
+    "code": "CN"
+  },
+  {
+    "id": 10,
+    "name": "Brazil",
+    "code": "BR"
+  },
+  {
+    "id": 11,
+    "name": "South Africa",
+    "code": "ZA"
+  },
+  {
+    "id": 12,
+    "name": "Russia",
+    "code": "RU"
+  },
+  {
+    "id": 13,
+    "name": "Italy",
+    "code": "IT"
+  },
+  {
+    "id": 14,
+    "name": "Spain",
+    "code": "ES"
+  },
+  {
+    "id": 15,
+    "name": "Mexico",
+    "code": "MX"
+  },
+  {
+    "id": 16,
+    "name": "South Korea",
+    "code": "KR"
+  },
+  {
+    "id": 17,
+    "name": "Argentina",
+    "code": "AR"
+  },
+  {
+    "id": 18,
+    "name": "Saudi Arabia",
+    "code": "SA"
+  },
+  {
+    "id": 19,
+    "name": "Turkey",
+    "code": "TR"
+  },
+  {
+    "id": 20,
+    "name": "Indonesia",
+    "code": "ID"
+  }
+]

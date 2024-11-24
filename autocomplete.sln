@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "dnc-autocomplete", "dnc-autocomplete\dnc-autocomplete.esproj", "{70DE5F5D-416D-4139-B93B-EE822B3B1B07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70DE5F5D-416D-4139-B93B-EE822B3B1B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DE5F5D-416D-4139-B93B-EE822B3B1B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DE5F5D-416D-4139-B93B-EE822B3B1B07}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{70DE5F5D-416D-4139-B93B-EE822B3B1B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DE5F5D-416D-4139-B93B-EE822B3B1B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DE5F5D-416D-4139-B93B-EE822B3B1B07}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6157F6A2-E9E2-4452-A9FF-A3E289E1CEDA}
+	EndGlobalSection
+EndGlobal

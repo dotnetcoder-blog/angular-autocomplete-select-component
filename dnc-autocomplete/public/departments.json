@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Software Development"
+  },
+  {
+    "id": 2,
+    "name": "Quality Assurance"
+  },
+  {
+    "id": 3,
+    "name": "DevOps"
+  },
+  {
+    "id": 4,
+    "name": "IT Support"
+  },
+  {
+    "id": 5,
+    "name": "Human Resources"
+  },
+  {
+    "id": 6,
+    "name": "Sales"
+  },
+  {
+    "id": 7,
+    "name": "Marketing"
+  },
+  {
+    "id": 8,
+    "name": "Research and Development"
+  },
+  {
+    "id": 9,
+    "name": "Product Management"
+  },
+  {
+    "id": 10,
+    "name": "Customer Support"
+  },
+  {
+    "id": 11,
+    "name": "Cybersecurity"
+  },
+  {
+    "id": 12,
+    "name": "Database Administration"
+  },
+  {
+    "id": 13,
+    "name": "Business Analysis"
+  },
+  {
+    "id": 14,
+    "name": "Project Management"
+  },
+  {
+    "id": 15,
+    "name": "Training and Development"
+  },
+  {
+    "id": 16,
+    "name": "Procurement"
+  },
+  {
+    "id": 17,
+    "name": "Cloud Services"
+  },
+  {
+    "id": 18,
+    "name": "Network Administration"
+  },
+  {
+    "id": 19,
+    "name": "Data Science"
+  },
+  {
+    "id": 20,
+    "name": "Technical Writing"
+  }
+]

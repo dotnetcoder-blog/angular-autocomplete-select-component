@@ -1,0 +1,25 @@
+<div class="dnc-list-container">
+  <!-- Input for search -->
+  <input type="text"
+         class="form-control"
+         [(ngModel)]="searchText"
+         (input)="onSearch()"
+         (keydown)="onKeydown($event)"
+         [placeholder]="placeholderText" />
+
+  <!-- Filtered items -->
+  <ul *ngIf="filteredItems.length > 0">
+    <li *ngFor="let item of filteredItems; let i = index"
+        (click)="selectItem(item)"
+        [class.active]="i === activeIndex">
+      {{ getSafeProperty(item, displayProperty) }}
+    </li>
+  </ul>
+
+  <!-- No results message -->
+  <div *ngIf="noResultsFound && searchText">
+    <ul>
+      <li>No results found</li>
+    </ul>
+  </div>
+</div>
